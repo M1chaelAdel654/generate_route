@@ -23,9 +23,6 @@ class ThirdScreen extends StatelessWidget {
                   Navigator.pop(context);
                 },
                 child: Text('back to second screen')),
-            ElevatedButton(onPressed: (){
-              Navigator.pushNamed(context, RoutesName.secondScreen,arguments: 'Hello');
-            }, child: Text('go to second screen'))
           ],
         ),
       ),
