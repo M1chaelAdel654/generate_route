@@ -11,7 +11,7 @@ class ThirdScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.deepPurple,
-        title: Text('F I R S T S C R E E N',style: TextStyle(color: Colors.white),),
+        title: Text('T H I R D S C R E E N',style: TextStyle(color: Colors.white),),
       ),
       body: Center(
         child: Column(
