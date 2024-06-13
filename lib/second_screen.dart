@@ -31,7 +31,7 @@ class SecondScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, RoutesName.thirdScreen, arguments: data);
                 },
-                child: Text('go to third screen')),
+                child: Text('Go to third screen')),
           ],
         ),
       ),
